@@ -1,0 +1,257 @@
+/* Set the background color of the entire page */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@font-face {
+  font-family: 'Coco Gothic';
+  src: url(../fonts/Coco\ Gothic.ttf);
+
+  font-family: 'Creattion Demo';
+  src: url(../fonts/Creattion\ Demo.ttf);
+
+  font-family: 'Mono';
+  src: url(../fonts/RobotoMono.ttf);
+
+  font-family: 'Main';
+  src: url(../fonts/AkayaTelivigala.ttf);
+
+  font-family: 'rubik';
+  src: url(../fonts/Rubik-VariableFont_wght.ttf);
+
+  
+}
+body {
+    background-color: #000000;
+}
+
+
+.neon {
+  font-size: 2em;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177, 0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
+  animation: neon 1.5s ease-in-out infinite alternate;
+}
+
+/* Neon Animation */
+@keyframes neon {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177, 0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #ff1177, 0 0 60px #ff1177, 0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177;
+  }
+}
+
+/* Neon Background */
+body {
+  background: linear-gradient(#000000, #00fffb);
+}
+
+/* Neon Button */
+.neon-btn {
+  background-color: #ff1177;
+  color: #fff;
+  border: 2px solid #00fffb;
+  padding: 10px 20px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px #00fffb;
+  transition: all 0.2s ease-in-out;
+}
+
+.neon-btn:hover {
+  background-color: #00fffb;
+  color: #ff1177;
+  box-shadow: 0 0 20px #00fffb;
+}
+
+body {
+    font-family: "Georgia", serif;
+}
+
+/* Make the headings larger and bold */
+h1, h2, h3 {
+    font-family: "Palatino Linotype", serif;
+    font-weight: bold;
+}
+
+/* Use a script font for the banner text */
+.banner h1 {
+    font-family: "Alex Brush", cursive;
+}
+
+/* Use a different font for the portfolio section */
+.portfolio h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Use a elegant font for the contact form */
+.contact-form {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #000000;
+    color: #00e1ec;
+  }
+  .banner {
+    background: linear-gradient(to right, #000000, #000000);
+}
+  header {
+    background-color: #00000000;
+    max-width: 100%;
+    padding: 80px;
+    text-align: left;
+  }
+  .banner h1 {
+    color: #ff0000;
+}
+  header h1 {
+    font-family: 'Creattion Demo';
+    font-size: 90px;
+    font-style: 10px;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  nav a {
+    color: #00fffb;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    text-align: right;
+  }
+  
+  nav a:hover {
+    color: #006699;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #about {
+    background-color: #00000052;
+    padding: 70px;
+    color: #ffffff;
+    
+  }
+  
+  #about h2 {
+    color: #00fffb;
+  }
+  
+  #gallery {
+    background-color: #00000000;
+    padding: 20px;
+    color: #000000;
+  }
+  
+  #gallery h2 {
+    font-family: 'Times New Roman';
+    color: #1a1c1c;
+  }
+  .portfolio-image:hover {
+    filter: brightness(1.2);
+    box-shadow: 0 0 10px #888888;
+    transform: scale(1.1);
+}
+
+  #photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  #photo-grid img {
+    width: 100%;
+  }
+  
+  #contact {
+    background-color: #f2f2f200;
+    padding: 20px;
+    color: #000000;
+  }
+  
+  #contact h2 {
+    color: #000000;
+  }
+  .contact-form {
+    border: 2px solid #FFA07A;
+}
+  form {
+    margin-bottom: 20px;
+  }
+  .contact-form input[type="submit"] {
+    background-color: #FFA07A;
+}
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #00000088;
+  }
+  .social-links {
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: right;
+  }
+  
+  .social-links a{
+    
+    color: var(--background);
+  
+    
+  
+    padding: 13px;
+    margin: 10px;
+  }
+  
+  .social-links a:hover{
+    background-color: var(--background);
+    
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  ::-webkit-scrollbar-track {
+  background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+  }
+  footer {
+    background-color: #000000;
+    padding: 15px;
+    margin: -20px;
+    text-align: center;
+    color: #f2f2f2;
+
+  }
+  /* Neon Text */
